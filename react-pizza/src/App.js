@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <Button />
+      <Button outline>Кнопка</Button>
+      <Button>йооо</Button>
       <Button text="Йооо" />
       <div className="content">
         <div className="container">

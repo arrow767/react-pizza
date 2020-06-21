@@ -3,7 +3,11 @@ import logoSvg from './assets/img/pizza-logo.svg';
 
 class Button extends React.Component {
   render() {
-    return <button>{this.props.text}</button>;
+    return (
+      <button className={`button ${this.props.outline ? 'button--outline' : ''}`}>
+        {this.props.children}
+      </button>
+    );
   }
 }
 
