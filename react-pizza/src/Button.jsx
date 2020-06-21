@@ -1,10 +1,13 @@
 import React from 'react';
-import logoSvg from './assets/img/pizza-logo.svg';
+import classNames from 'classnames';
 
 class Button extends React.Component {
   render() {
     return (
-      <button className={`button ${this.props.outline ? 'button--outline' : ''}`}>
+      <button
+        className={classNames('button', {
+          'button--outline': this.props.outline,
+        })}>
         {this.props.children}
       </button>
     );
