@@ -6,7 +6,7 @@ function SortPopup({ items }) {
   const sortRef = React.useRef();
   const activeLabel = items[activeItem];
 
-  console.log(sortRef.current);
+  // console.log(sortRef.current);
 
   const toogleVisiblePopup = () => {
     setVisiblePopup(!visiblePopup);
