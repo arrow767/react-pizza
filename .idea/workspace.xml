@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="060502ed-2c4f-4f1d-9021-1e78911381a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-pizza/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/.idea/react-pizza.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/public/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/public/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/assets/img/arrow-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/arrow-top.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/assets/img/cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/assets/img/grey-arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/grey-arrow-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/assets/img/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/assets/img/trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/components/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/components/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/components/Categories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/components/PizzaBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/components/PizzaBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/components/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/components/SortPopup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/pages/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/components/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/components/_categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_categories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_pizza-block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/components/_sort.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_sort.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/libs/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/libs/_normalize.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fsTEXbGCADeoo8zlvMIZ9hQwFc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="060502ed-2c4f-4f1d-9021-1e78911381a8" name="Default Changelist" comment="" />
+      <created>1597005689100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597005689100</updated>
+      <workItem from="1597005690185" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
