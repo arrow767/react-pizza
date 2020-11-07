@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import {setPizzas} from './redux/actions/pizzas'
-import {useSelector, useDispatch} from 'react-redux'
+import {useDispatch} from 'react-redux'
 
 // import logo from './logo.svg';
 // import './App.css';
@@ -12,15 +12,9 @@ import { Route } from 'react-router-dom';
 
 function App(){
     const dispatch = useDispatch()
-    const {items} = useSelector(({pizzas, filters}) => {
-        return({
-            items: pizzas.items,
-            sortBy: filters.sortBy
-        })
 
-    })
-    console.log(window.store.getState())
-    console.log(items)
+    // console.log(window.store.getState())
+    // console.log(items)
     React.useEffect(()=> {
             axios.get('http://localhost:3000/db.json').then(({ data }) => {
                 dispatch(setPizzas(data.pizzas))
@@ -30,7 +24,7 @@ function App(){
         <div className="wrapper">
             <Header />
             <div className="content">
-                <Route path="/" render={() => <Home items={items} />} exact />
+                <Route path="/" component = {Home} exact />
                 <Route path="/cart" component={Cart} exact />
             </div>
         </div>
