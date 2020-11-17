@@ -1,5 +1,5 @@
 import React from 'react';
-import {fetchPizzas} from './redux/actions/pizzas'
+// import {fetchPizzas} from './redux/actions/pizzas'
 import {useDispatch} from 'react-redux'
 
 // import logo from './logo.svg';
@@ -10,13 +10,10 @@ import { Home, Cart } from './pages';
 import { Route } from 'react-router-dom';
 
 function App(){
-    const dispatch = useDispatch()
 
     // console.log(window.store.getState())
     // console.log(items)
-    React.useEffect(()=> {
-        console.log(dispatch(fetchPizzas()))
-    },[])
+
     return(
         <div className="wrapper">
             <Header />
