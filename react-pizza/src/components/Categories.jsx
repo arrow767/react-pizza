@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from "prop-types";
+import PizzaBlock from "./PizzaBlock";
 
 // Пример: классовый компонент
 // class Categories extends React.Component {
@@ -33,17 +35,12 @@ import React from 'react';
 //   }
 // }
 
-const Categories = React.memo(function Categories({ items, onClickItem }) {
+const Categories = React.memo(function Categories({activeCategory, items, onClickCategory}) {
   const [activeItem, setActiveItem] = React.useState(null);
 
   // const [count, setCount] = React.useState(null)
 
-  const onSelectItem = (index) => {
-    setActiveItem(index);
-    onClickItem(index);
-    // setCount((num) => num + 1)
-    // console.log(setCount);
-  };
+
 
   // const state = React.useState(null)
   // const activeItem = state[0]
@@ -54,14 +51,14 @@ const Categories = React.memo(function Categories({ items, onClickItem }) {
       <div className="categories">
         <ul>
           {/* <h3>{count}</h3> */}
-          <li onClick={() => onSelectItem(null)} className={activeItem === null ? 'active' : ''}>
+          <li onClick={() => onClickCategory(null)} className={activeCategory === null ? 'active' : ''}>
             Все
           </li>
           {items &&
           items.map((name, index) => (
               <li
-                  className={activeItem === index ? 'active' : ''}
-                  onClick={() => onSelectItem(index)}
+                  className={activeCategory === index ? 'active' : ''}
+                  onClick={() => onClickCategory(index)}
                   key={`${name}_${index}`}>
                 {name}
               </li>
@@ -70,5 +67,16 @@ const Categories = React.memo(function Categories({ items, onClickItem }) {
       </div>
   );
 })
+
+Categories.protoTypes = {
+    // activeCategory: PropTypes.oneOf([PropTypes.number, null]),
+    items: PropTypes.arrayOf(PropTypes.object).isRequired,
+    onClickCategory: PropTypes.func.isRequired
+};
+
+Categories.defaultProps = {
+    activeCategory: null,
+    items:[]
+};
 
 export default Categories;
