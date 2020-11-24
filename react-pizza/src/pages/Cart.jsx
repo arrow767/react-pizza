@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 
 import CartItem from '../components/CartItem'
-import {clearCart} from '../redux/actions/cart'
+import {clearCart, removeCartItem} from '../redux/actions/cart'
 import CartEmptyImage from '../assets/img/empty-cart.png'
 
 function Cart() {
@@ -19,6 +19,12 @@ function Cart() {
             dispatch(clearCart())
         }
 
+    }
+
+    const onRemoveItem = (id) =>{
+        if(window.confirm('Are you sure you want to delete Pizza')){
+            dispatch(removeCartItem(id))
+        }
     }
   return (
       <div className="content">
@@ -59,11 +65,13 @@ function Cart() {
                   </div>
                   <div className="content__items">
                       {
-                          addedPizzas.map((obj)=>(<CartItem name={obj.name}
+                          addedPizzas.map((obj)=>(<CartItem id = {obj.id}
+                                                            name={obj.name}
                                                             type={obj.types}
                                                             size={obj.sizes}
                                                             totalPrice={items[obj.id].totalPrice}
-                                                            totalCount={items[obj.id].items.length}/>
+                                                            totalCount={items[obj.id].items.length}
+                                                            onRemove = {onRemoveItem}/>
 
                           ))}
 
